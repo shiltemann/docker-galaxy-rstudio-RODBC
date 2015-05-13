@@ -1,0 +1,7 @@
+library("yaml")
+library("GalaxyConnector")
+Sys.setenv(LD_LIBRARY_PATH="/usr/lib64/R/lib:/usr/lib/jvm/java-6-openjdk/jre/lib/amd64/server:/usr/lib:/usr/lib64:/usr/lib/oracle/12.1/client64/lib")
+Sys.setenv(ORACLE_HOME="/usr/lib/oracle/12.1/client64")
+Sys.setenv(PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/lib/oracle/12.1/client64/lib")
+.First <- function() cat("\n 0.7  Welcome to the Galaxy R Interactive Environment!\n\nThe convenience functions gx_put() and gx_get() are available to you to interact with your current Galaxy history. You can save your workspace with gx_save()\nPre-installed packages: bioconductor core packages, RODBC, edgeR, Gviz, Rgraphviz")
+options(encoding = "UTF-8")
