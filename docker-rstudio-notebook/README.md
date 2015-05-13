@@ -1,6 +1,8 @@
 Docker RStudio Container
 ========================
 
+based on: erasche/docker-rstudio-notebook, added Oracle ODBC connector and several bioconductor packages
+
 RStudio running in a docker container. This image can be used to integrate RStudio into Galaxy.
 A variety of different packages are pre-installed and can be used right away.
 
